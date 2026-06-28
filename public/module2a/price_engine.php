@@ -20,7 +20,7 @@
             $size = 'XL'; // Options: 'S', 'M', 'L', 'XL'
             $color = 'Sunset Orange'; // Any string, but test with 'Sunset Orange' or 'Ocean Blue'
             $isCustomized = true; // Options: true, false
-            $customerFirstName = 'Noah'; // <-- IMPORTANT: REPLACE WITH YOUR ACTUAL FIRST NAME
+            $customerFirstName = 'Metin Yildiztas'; // <-- IMPORTANT: REPLACE WITH YOUR ACTUAL FIRST NAME
 
             // --- Part A: Implement the logic below using ONLY simple, nested if-statements ---
             $finalPrice = 22.50;
