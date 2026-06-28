@@ -61,13 +61,9 @@
 
             /*
             MY DEBUGGING LOG:
-            Problem: When i first wrote part A my XL handling fee kept getting added even on shirts that
-            werent customized at all. I had the XL handling check sitting as its own seperate if statement
-            so it just ran on every XL order no matter what.
-            Solution: I moved that check so it only happens when the shirt is actually customized. In this
-            refactored version i combined it into one line with ($isCustomized && $size == 'XL') which made
-            the rule alot easier to read, instead of having to follow a bunch of nested if blocks to figure
-            out when the $3 fee was suppose to apply.
+            in part A the $3 XL fee kept adding on shirts that wasnt even customized cause i had
+            it as its own if. took me a sec to notice. i moved it so it only runs when customized
+            and here i just put ($isCustomized && $size == 'XL') on one line, way easier to read now
             */
 
         ?>
