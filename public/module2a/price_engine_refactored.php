@@ -20,7 +20,7 @@
             $size = 'XL'; // Options: 'S', 'M', 'L', 'XL'
             $color = 'Sunset Orange'; // Any string, but test with 'Sunset Orange' or 'Ocean Blue'
             $isCustomized = true; // Options: true, false
-            $customerFirstName = 'Noah'; // <-- IMPORTANT: REPLACE WITH YOUR ACTUAL FIRST NAME
+            $customerFirstName = 'Metin Yildiztas'; // <-- IMPORTANT: REPLACE WITH YOUR ACTUAL FIRST NAME
 
             // --- Part B: Refactored logic using if/elseif/else and compound operators ---
             $finalPrice = 22.50;
